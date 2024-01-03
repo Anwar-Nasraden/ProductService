@@ -1,0 +1,73 @@
+[
+    {
+      "name": "IPhone X",
+      "description": "Performance test.",
+      "imageFile": "product-1.png",
+      "category": "Phone",
+      "price": 950.4
+    },
+    {
+      "name": "Samsung Galaxy S21",
+      "description": "High-end Android phone.",
+      "imageFile": "product-2.png",
+      "category": "Phone",
+      "price": 899.99
+    },
+    {
+      "name": "Google Pixel 6",
+      "description": "Flagship Google phone.",
+      "imageFile": "product-3.png",
+      "category": "Phone",
+      "price": 799.5
+    },
+    {
+      "name": "OnePlus 9",
+      "description": "Premium Android device.",
+      "imageFile": "product-4.png",
+      "category": "Phone",
+      "price": 749.99
+    },
+    {
+      "name": "iPhone 13 Pro",
+      "description": "Latest iPhone model.",
+      "imageFile": "product-5.png",
+      "category": "Phone",
+      "price": 1099.0
+    },
+    {
+      "name": "Xiaomi Mi 11",
+      "description": "Affordable flagship.",
+      "imageFile": "product-6.png",
+      "category": "Phone",
+      "price": 599.9
+    },
+    {
+      "name": "Sony Xperia 5 III",
+      "description": "Compact and powerful.",
+      "imageFile": "product-7.png",
+      "category": "Phone",
+      "price": 899.0
+    },
+    {
+      "name": "Motorola Moto G Power (2021)",
+      "description": "Long-lasting battery.",
+      "imageFile": "product-8.png",
+      "category": "Phone",
+      "price": 249.99
+    },
+    {
+      "name": "Nokia 8.3",
+      "description": "Global 5G connectivity.",
+      "imageFile": "product-9.png",
+      "category": "Phone",
+      "price": 599.0
+    },
+    {
+      "name": "LG Velvet",
+      "description": "Stylish and sleek design.",
+      "imageFile": "product-10.png",
+      "category": "Phone",
+      "price": 499.99
+    }
+  ]
+  
