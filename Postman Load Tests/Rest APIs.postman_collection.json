@@ -1,0 +1,127 @@
+{
+	"info": {
+		"_postman_id": "b1c79d75-d8d9-4935-a720-95724d6f319e",
+		"name": "Rest APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "2906927",
+		"_collection_link": "https://speeding-star-703344.postman.co/workspace/bb172e8c-ed1a-4c83-8838-2a8d06d62367/collection/2906927-b1c79d75-d8d9-4935-a720-95724d6f319e?action=share&source=collection_link&creator=2906927"
+	},
+	"item": [
+		{
+			"name": "NomadAPI",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://pot9cwz9z7.execute-api.us-east-1.amazonaws.com/prod/NomadProduct",
+					"protocol": "https",
+					"host": [
+						"pot9cwz9z7",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"NomadProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "NomadAPI2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"name\": \"Product Added by Nomad\",\r\n      \"description\": \"Flagship Google phone.\",\r\n      \"imageFile\": \"product-3.png\",\r\n      \"category\": \"Phone\",\r\n      \"price\": 799.5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://pot9cwz9z7.execute-api.us-east-1.amazonaws.com/prod/NomadProduct",
+					"protocol": "https",
+					"host": [
+						"pot9cwz9z7",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"NomadProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "KubeAPI",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://d59o0kkdo2.execute-api.us-east-1.amazonaws.com/prod/KuberneteProduct",
+					"protocol": "https",
+					"host": [
+						"d59o0kkdo2",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"KuberneteProduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "KubeAPI2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"name\": \"Product Added by Kubernete\",\r\n      \"description\": \"Flagship Google phone.\",\r\n      \"imageFile\": \"product-3.png\",\r\n      \"category\": \"Phone\",\r\n      \"price\": 799.5\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://d59o0kkdo2.execute-api.us-east-1.amazonaws.com/prod/KuberneteProduct",
+					"protocol": "https",
+					"host": [
+						"d59o0kkdo2",
+						"execute-api",
+						"us-east-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"KuberneteProduct"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "https://sf8kz2lw94.execute-api.us-west-1.amazonaws.com/prod"
+		}
+	]
+}
